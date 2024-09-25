@@ -173,6 +173,7 @@ section {
   display: flex;
   height: 400px;
   width: 400px;
+  border-radius: 20px;
   margin: auto 0;
 }
 
@@ -195,7 +196,7 @@ section {
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
 }
 
