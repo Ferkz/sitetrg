@@ -551,9 +551,9 @@ footer p {
 }
 @media only screen and (max-width: 900px) {
   .section__pic-container {
-    height: 4300px;
-    width: 400px;
-    margin: auto 0;
+    height: 4x;
+    width: 20px;
+
   } 
   .row{
     display: flex;
