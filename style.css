@@ -193,7 +193,6 @@ section {
   border-radius: 20px;
   margin: auto 0;
 }
-
 .section__text {
   align-self: center;
   text-align: center;
@@ -331,11 +330,7 @@ section {
   height: 80%;
 }
 
-.section__pic-container {
-  height: 400px;
-  width: 400px;
-  margin: auto 0;
-}
+
 
 /* EXPERIENCE SECTION */
 
@@ -550,11 +545,7 @@ footer p {
   color: var(--color-white);
 }
 @media only screen and (max-width: 900px) {
-  .section__pic-container {
-    height: 4x;
-    width: 20px;
 
-  } 
   .row{
     display: flex;
     flex-direction: column;
