@@ -282,22 +282,25 @@
         <div class="col">
            <div class="contact-info">
                <h2>Entre em contato <i class="uil uil-corner-right-down"></i></h2>
-               <p><i class="uil uil-envelope"></i> ev.vanilson@hotmail.com</p>
-               <p><i class="uil uil-phone"></i> Tel: +55 69 993140267</p>
+               <p><i class="uil uil-envelope"></i>Envie uma mensagem para marcar um atendimento</p>
+               <p><i class="uil uil-phone"></i>Os atendimentos serão feitos de forma online.</p>
            </div>
         </div>
         <div class="col">
+
            <div class="form-control">
                <div class="form-inputs">
-                   <input type="text" class="input-field" placeholder="Nome">
-                   <input type="text" class="input-field" placeholder="Email">
+                   <input type="text" class="input-field" id="nome" placeholder="Nome">
+                   <input type="text" class="input-field" id="email" placeholder="Email">
                </div>
                <div class="text-area">
-                   <textarea placeholder="Mensagem"></textarea>
+                   <textarea placeholder="Mensagem" id="message"></textarea>
                </div>
                <div class="form-button">
-                   <button class="btn">Enviar <i class="uil uil-message"></i></button>
+                   <button class="btn" onclick="enviaEmail()">Enviar <i class="uil uil-message"></i></button>
                </div>
+               <span class="message"></span>
+           
            </div>
         </div>
      </div>
@@ -316,5 +319,6 @@
       <p>Copyright &#169; 2023 <a href="https://ferkz.github.io/luisfernandomonteiro/#about">Coding Sales Inc.</a> All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
+    <script src="sendEmail.js"></script>
   </body>
 </html>
