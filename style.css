@@ -210,7 +210,67 @@ section {
   font-size: 1.75rem;
   margin-bottom: 1rem;
 }
+.beneficios {
+  justify-content:center;
+  gap: 5rem;
+  height: 50vh;
+  box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
+  overflow: hidden;
+  border-radius: 10px;
+}
+.beneficios-item{
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+}
+.beneficios-title{
+  font-size: 1.5rem;
+  text-align: center;
+}
+.beneficios-btn{
+  width: 250px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  background: var(--second-color);
+  color: #fff;
+}
+.beneficios-btn:hover{
+  background: #efefef;
+}
+.beneficios-card-title{
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+}
+.cards{
+  display: flex;
+  justify-content: center;
+}
+.card-item{
+  margin: 5px;
+  width: 30vw;
+  height: 25vh;
+  padding: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+  border: 1px solid #efefef;
 
+}
+.card-item-title{
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 5px;
+  width: 100%;
+  height: 2.5rem;
+  background-color: var(--second-color);
+  border-radius: 4px;
+  color: #fff;
+}
 .title {
   font-size: 2rem;
   text-align: center;
@@ -530,8 +590,9 @@ footer p {
 }
 .btn{
   font-weight: 500;
+  color: #fff;
   padding: 12px 20px;
-  background: #efefef;
+  background: var(--second-color);
   border: none;
   border-radius: 10px;
   cursor: pointer;
@@ -541,8 +602,7 @@ footer p {
   margin-left: 10px;
 }
 .btn:hover{
-  background: var(--second-color);
-  color: var(--color-white);
+  background:#efefef;
 }
 #sucesso-mensagem{
   background-color: var(--second-color);
@@ -577,6 +637,13 @@ footer p {
 textarea{
   width: 90%;
   height: 250px;
+}
+.cards{
+  flex-direction: column;
+}
+.card-item{
+  width: 80vw;
+  height: 30vh;
 }
 }
 
