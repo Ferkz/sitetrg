@@ -227,8 +227,10 @@ section {
 .beneficios-title{
   font-size: 1.5rem;
   text-align: center;
+  font-weight: bold;
 }
 .beneficios-btn{
+  font-size: 20px;
   width: 250px;
   text-align: center;
   padding: 20px;
@@ -262,7 +264,7 @@ section {
 
 }
 .card-item-title{
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 300;
   margin-bottom: 5px;
   width: 100%;
