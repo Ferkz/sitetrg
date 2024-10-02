@@ -193,6 +193,9 @@ section {
   border-radius: 20px;
   margin: auto 0;
 }
+.fa{
+  margin: 2px;
+}
 .section__text {
   align-self: center;
   text-align: center;
@@ -325,6 +328,11 @@ section {
 .btn-color-1,
 .btn-color-2 {
   border: rgb(53, 53, 53) 0.1rem solid;
+}
+.btn-color-2 a {
+  text-decoration: none;
+  color: #fff;
+
 }
 
 .btn-color-1:hover,
