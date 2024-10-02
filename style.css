@@ -253,7 +253,7 @@ section {
   justify-content: center;
 }
 .card-item{
-  margin: 5px;
+  margin: 25px;
   width: 30vw;
   height: 25vh;
   padding: 5px;
@@ -272,6 +272,20 @@ section {
   background-color: var(--second-color);
   border-radius: 4px;
   color: #fff;
+}
+.protocolo-title{
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+  background-color: var(--second-color);
+  color: #fff;
+  margin: 1.5rem;
+  border-radius: 5px;
+}
+#protocolo-card{
+  margin: 1.5rem;
 }
 .title {
   font-size: 2rem;
