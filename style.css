@@ -270,7 +270,8 @@ section {
   font-size: 20px;
   font-weight: 300;
   margin-bottom: 5px;
-  width: 100%;
+  padding: 10px;
+
   height: 2.5rem;
   background-color: var(--second-color);
   border-radius: 4px;
@@ -289,6 +290,10 @@ section {
 }
 #protocolo-card{
   margin: 1.5rem;
+}
+.protocolo-item{
+  display: flex;
+  flex-direction:row;
 }
 .title {
   font-size: 2rem;
@@ -446,16 +451,9 @@ section {
 
 article {
   display: flex;
-  width: 10rem;
   justify-content: space-around;
   gap: 0.5rem;
 }
-
-article .icon {
-  cursor: default;
-}
-
-/* PROJECTS SECTION */
 
 #projects {
   position: relative;
