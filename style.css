@@ -594,14 +594,27 @@ textarea{
   font-size: larger;
 }
 
-.contact-icon {
-  cursor: default;
+.reviews{
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
 }
-
-.email-icon {
-  height: 2.5rem;
+.review{
+  margin: 20px;
+  width: 300px;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
+  
 }
-
+.review-title{
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+.review-img{
+  width: 40px;
+}
 /* FOOTER SECTION */
 
 footer {
@@ -671,6 +684,9 @@ textarea{
 .card-item{
   width: 80vw;
   height: 30vh;
+}
+.review{
+  width: 400px;
 }
 }
 
