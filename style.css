@@ -675,14 +675,15 @@ footer p {
     width: 100%;
 }
 textarea{
-  width: 90%;
+  width: 88%;
   height: 250px;
 }
+
 .cards{
   flex-direction: column;
 }
 .card-item{
-  width: 80vw;
+  width: 310px;
   height: 30vh;
 }
 .review{
